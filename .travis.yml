@@ -1,0 +1,10 @@
+language: rust
+rust:
+  - nightly
+notifications:
+  email: false
+before_install:
+  - "cd rustcat"
+script:
+ - cargo build --verbose
+ - cargo test --verbose
