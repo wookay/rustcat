@@ -1,0 +1,8 @@
+[package]
+name = "mucko"
+version = "0.0.1"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"

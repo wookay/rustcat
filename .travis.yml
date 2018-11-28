@@ -1,10 +1,9 @@
 language: rust
 rust:
-  - nightly
+  - stable
 notifications:
   email: false
-before_install:
-  - "cd rustcat"
 script:
- - cargo build --verbose
- - cargo test --verbose
+ - pwd
+ - cd mucko && cargo test --verbose && cd ..
+ - cd rustcat && cargo test --verbose && cd ..
