@@ -3,6 +3,10 @@ name = "mucko"
 version = "0.0.1"
 authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
 
+[lib]
+name = "mucko"
+path = "src/lib.rs"
+
 [[bin]]
 name = "main"
 path = "src/main.rs"
