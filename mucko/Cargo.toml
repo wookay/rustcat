@@ -10,3 +10,6 @@ path = "src/lib.rs"
 [[bin]]
 name = "main"
 path = "src/main.rs"
+
+[dependencies]
+typename = "0.1.1"
